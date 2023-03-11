@@ -1,7 +1,9 @@
 ---
 title: Why Firelight?
 tags: [life, learning]
+layout: post
 ---
+Post by [Uzay Girit](https://uzpg.me)
 
 Last semester, a few friends and I started building a community called Firelight. Firelight is an MIT club of curious people who want to learn/build a lot of stuff outside of just their classes. Last semester, we ran lightning talks where people talked about stuff like the Punic Wars, Infinite Jest, ML interpretability, and seeing the stars.
 
