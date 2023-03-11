@@ -1,0 +1,18 @@
+---
+layout: post
+title: the consequences of having a physical form - kai
+---
+
+I’ve felt disconnected from my body for a long time. The feeling that my body and I are one, that I am physically living in this world, comes only in brief flashes. This is made worse by my dislike of my body: it’s weak, skinny yet flabby, it holds itself in an almost limp position. There are some simple ways to make the problem better (exercise more? maybe find clothes I’m more comfortable in?) but in the end I think a lot of it comes down to how physicality and life itself are treated among young people today.
+
+I started noticing this when I began living at my current living community, which maintains its own house. This means there are work assignments due every week, we cook and clean every week, and we have a “work week” every semester where we fix up the house. In general, people here are very enthusiastic about using their bodies: they climb around the house, they hold Just Dance parties, they bike to and from campus, they jump at the chance to carry heavy things. This was something I had to get used to when I moved in—my mental discomfort no longer seemed like a valid excuse to not engage in communal activities.
+
+It would be a stretch to say that lifting heavy things makes me feel good now, but at least it doesn’t make me feel as bad as it did before moving here. I do squats sometimes (though I can only properly squat the bar), and at some point I applied the squat form to lifting something else that was heavy off the ground, and it made an enormous difference in how much I could lift. Learning about the best way to use my body made it possible for me to use it more efficiently.
+
+We experience the world through our bodies: it’s the only way that we can learn about things outside ourselves. Things like doing laundry and cooking and walking are not the dusty cornerstones of life, but its foundation. But often these are treated as chores that we should minimize time spent doing, and instead of being a vessel for sensation and experience, one’s body is treated like a showpiece.
+
+There’s both more scrutiny than ever on our bodies and more encouragement to neglect them. Take exercise as an example—plenty of people work out, and for many, of course the focus is on their health and confidence; however, it also seems like a general sentiment in online spaces is that if someone works out, they’re doing it for the aesthetic, to sculpt their body into a shape that other people like.
+
+Well, okay, it’s true that I would like to sculpt my body into a shape that I like, and if other people liked it that would be cool too. But if your body isn’t in a shape that you like, this is a very discouraging way to think about things. And more importantly, that’s not the crucial part of having a body.
+
+More important I think is that there is some life packed into every physical action one performs, and that element seems to often be swept away in favor of the end product. I have been swimming more often recently, and the quiet meditation that each stroke of my arms and legs, each quick inhale and slow exhale provides to me, is the best part. I can’t spiral into worry or pessimism: I’ll lose the focus on my body and my breathing, and then I’ll drown (or at least choke on the water). Other physical activities are the same, minus the choking bit: if I really allow myself to walk or cook or paint without thinking about optimizing for time or the end product, then the meditation—the sensation—the experience of being in your body is the reward, and the substance that makes up your life.
