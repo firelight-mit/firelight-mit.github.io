@@ -1,9 +1,109 @@
----
-layout: default
-title: A learning community to build and learn cool shit outside of your classes
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Firelight | A learning community to build and learn cool shit outside of your classes</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<ul class="article-list">
+  <meta property="og:title" content="A learning community to build and learn cool shit outside of your classes">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://firelight-mit.github.io/">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="Firelight">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://firelight-mit.github.io/">
+  <meta name="twitter:title" content="A learning community to build and learn cool shit outside of your classes">
+  <meta name="twitter:description" content="">
+
+  
+    <meta property="og:image" content="http://firelight-mit.github.io/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+    <meta name="twitter:image" content="http://firelight-mit.github.io/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+  
+
+  <link href="http://firelight-mit.github.io/feed.xml" type="application/rss+xml" rel="alternate" title="Firelight Last 10 blog posts" />
+
+  
+
+  
+
+    
+      <link rel="icon" type="image/x-icon" href="/assets/favicon-light-a98c41efc5ed9fcc06ac664c9e2f7a9b3c3b2e0a52357d221fe382f6f4abc8fc.ico">
+      <link rel="apple-touch-icon" href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png">
+      <link rel="stylesheet" type="text/css" href="/assets/light-f4a4944d8eee9b2ce08863c3e5b1d08088d218b2b8b8d3a7b7f4944f0e4cd60e.css">
+    
+
+  
+
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav scrollappear">
+  <a href="/" class="header-logo" title="Firelight">Firelight</a>
+  <ul class="header-links">
+    
+      <li>
+        <a href="https://firelight-mit.github.io/posts/why-firelight" title="About me">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-about">
+  <use href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about" xlink:href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="mailto:firelight@mit.edu" title="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-email">
+  <use href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email" xlink:href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="/feed.xml" rel="noreferrer noopener" target="_blank" title="RSS">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-rss">
+  <use href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss" xlink:href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+  </ul>
+</nav>
+
+
+
+        <ul class="article-list">
   <p>This blog is a collection of posts written at the Firelight blogathon, on March 11th 2023. About 25 people contributed, writing one post each every 30 mins. Here are some of the bloggers that came (that had websites): <a href="https://willhath.com">Will</a>, <a href="https://uzpg.me">Uzay</a>,
     <a href="https://ali.cy">Ali</a>,
     <a href="https://jerzh.github.io">Jeremy</a>,
@@ -11,32 +111,467 @@ title: A learning community to build and learn cool shit outside of your classes
     <a href="https://lyricist.poetry.blog">Lyricist</a>. <a href="https://firelight-mit.github.io/posts/why-firelight">Firelight</a> is an MIT club of curious people who want to learn/build a lot of stuff outside of just their classes, and that loves running little experiments like this one.
   </p>
   <br>
-  {% for post in paginator.posts %}
-    <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/words" title="Words">
         <h5>
-          {{ post.title }}
-          {% include svg-icon.html icon="arrow-right" %}
+          Words
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
         </h5>
       </a>
       <p>
-        {% if post.description %}
-          {{ post.description }}  
-        {% else %}
-          {{ post.excerpt }}
-        {% endif %}
+        
+          <p>Words. WORDS. WoRdS.</p>
+
+
+        
       </p>
-      {% include article/info-footer.html post=post %}
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      2 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+  </div>
+</div>
     </li>
-  {% endfor %}
-  {% if paginator.total_pages > 1 %}
-    <li class="article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} Older posts</a>
-      {% endif %}
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="article-pagination-right">Newer posts {% include svg-icon.html icon="arrow-right" %}</a>
-      {% endif %}
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/why-firelight" title="Why Firelight? - Uzay">
+        <h5>
+          Why Firelight? - Uzay
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Last semester, a few friends and I started building a community called Firelight. Firelight is an MIT club of curious people who want to learn/build a lot of stuff outside of just their classes. Last semester, we ran lightning talks where people talked about stuff like the Punic Wars, Infinite Jest, ML interpretability, and seeing the stars.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      3 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+      
+      <a href="/tag/life" title="See all posts with tag ''"></a>
+    
+      
+      <a href="/tag/learning" title="See all posts with tag ''"></a>
+    
+  </div>
+</div>
     </li>
-  {% endif %}
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/threads" title="Threads by Anon">
+        <h5>
+          Threads by Anon
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Yesterday was Drop Everything And Read in 2W. Most notably I did not drop my laundry duties but I think that’s a very positive outcome. I had thoughts. I read <em>Infomocracy</em>.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      2 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+  </div>
+</div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/strong-suits" title="What I'm good at and what I want to do better">
+        <h5>
+          What I'm good at and what I want to do better
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>I was talking to someone last semester and they told me I was pretty good at asking questions. I hadn’t really thought too much about this, and it kind of made me think: what am I good at? what am I bad at? And what do I want to do better.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      4 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+      
+      <a href="/tag/life" title="See all posts with tag ''"></a>
+    
+  </div>
+</div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/quirkiness-as-a-lifestyle-choice" title="Quirkiness as a lifestyle choice (or not) /s">
+        <h5>
+          Quirkiness as a lifestyle choice (or not) /s
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>What does it mean to be quirky? Let’s operationalize:</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      4 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+  </div>
+</div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/ode-to-objects" title="Ode to Objects - Will">
+        <h5>
+          Ode to Objects - Will
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p><a href="https://willhath.wordpress.com/2023/03/11/ode-to-objects/">Original post</a></p>
+
+        
+      </p>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      1 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+  </div>
+</div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/merits-of-mediocrity" title="The Merits of Mediocrity - Will">
+        <h5>
+          The Merits of Mediocrity - Will
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p><a href="https://willhath.wordpress.com/2023/03/11/the-merits-of-mediocrity/">Original Post</a></p>
+
+        
+      </p>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      1 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+  </div>
+</div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/having-my-head-stuck-in-my-ass" title="Having my head stuck in my own ass - Tara">
+        <h5>
+          Having my head stuck in my own ass - Tara
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>This is the first blog post I’m writing since coming to MIT and I think it’s a really good way to kick it off. Basically this is me explaining how I realized how arrogantly ignorant I was towards the fact that I have so much more to learn and how little I know.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      3 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+  </div>
+</div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/doors" title="Doors - Mohit">
+        <h5>
+          Doors - Mohit
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Doors are weird.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      2 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+  </div>
+</div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/consequence-of-having-physical-form" title="the consequences of having a physical form - kai">
+        <h5>
+          the consequences of having a physical form - kai
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>I’ve felt disconnected from my body for a long time. The feeling that my body and I are one, that I am physically living in this world, comes only in brief flashes. This is made worse by my dislike of my body: it’s weak, skinny yet flabby, it holds itself in an almost limp position. There are some simple ways to make the problem better (exercise more? maybe find clothes I’m more comfortable in?) but in the end I think a lot of it comes down to how physicality and life itself are treated among young people today.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      3 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+  </div>
+</div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/class-planning" title="Class Planning - Will Hath">
+        <h5>
+          Class Planning - Will Hath
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p><a href="https://willhath.wordpress.com/2023/03/11/class-planning/">Class Planning</a></p>
+
+        
+      </p>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      1 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+      
+      <a href="/tag/classes" title="See all posts with tag ''"></a>
+    
+      
+      <a href="/tag/learning" title="See all posts with tag ''"></a>
+    
+  </div>
+</div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts/choosing-communities" title="Choosing communities - Kai">
+        <h5>
+          Choosing communities - Kai
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>A lot of people seem to share the experience that, soon after entering college, they find friends that they connect with and understand on a deeper level than in most previous relationships. This is an especially prevalent sentiment at MIT, where lots of people say things like “I finally felt normal/accepted here” or “I found people I consider family”.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+  <span class="article-list-date">
+    March 11, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      5 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+  </div>
+</div>
+    </li>
+  
+  
 </ul>
+
+        <footer class="footer scrollappear">
+  <p>
+    Chalk is a high quality, completely customizable, performant and 100% free
+    blog template for Jekyll built by
+    <a href="/about" title="About me">Nielsen Ramon</a>. Download it <a href="https://github.com/nielsenramon/chalk" rel="noreferrer noopener" target="_blank" title="Download Chalk">here</a>.
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  
+
+<script type="text/javascript" src="/assets/vendor-68aa43180ce980cef3f5088a72309367c88bad0c9a8a3011a6d17d69973f1bbe.js"></script>
+
+
+  <script type="text/javascript" src="/assets/webfonts-96493456d319d1bf419afdf8701552d4d486fee6afd304897d4fd81eb4e0cc0b.js"></script>
+
+
+
+  <script type="text/javascript" src="/assets/scrollappear-e2da8ea567e418637e31266cc5302126eaa79f62a2273739086358b589a89ee6.js"></script>
+
+
+<script type="text/javascript" src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js"></script>
+
+
+</body>
+</html>
